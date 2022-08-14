@@ -11,3 +11,6 @@ dependencies = []
 
 [project.entry-points."napari.manifest"]
 test-plugin = "test_plugin:napari.yaml"
+
+[tool.setuptools.package-data]
+"*" = ["*.yaml"]
