@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=42.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "test-plugin"
+description = "test napari plugin"
+version = "0.1.0"
+authors = [{ name = "Plugin Author", email = "author@example.com" }]
+dependencies = []
+
+[project.entry-points]
+napari.manifest
+  test-plugin = test_plugin:napari.yaml
