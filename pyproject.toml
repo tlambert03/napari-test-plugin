@@ -10,4 +10,4 @@ authors = [{ name = "Plugin Author", email = "author@example.com" }]
 dependencies = []
 
 [project.entry-points."napari.manifest"]
-test-plugin = test_plugin:napari.yaml
+test-plugin = "test_plugin:napari.yaml"
